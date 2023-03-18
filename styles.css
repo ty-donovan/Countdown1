@@ -1,10 +1,18 @@
-img {
-    border-radius: 15px 50px 30px;
-    width: 400px;
+.image-wrapper {
+    border-radius: 15px;
+    width: 50%;
     height: 350px;
     margin: 0 auto;
     background-color: #41b3a3;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper img {
+    border-radius: 15px;
+    width: 400px;
+    height: 350px;
 }
 
 .header-wrapper {
@@ -13,9 +21,9 @@ img {
 }
 
 .about-me {
-    border-radius: 15px 50px 30px;
-    margin: 0 auto;
-    width: 400px;
+    border-radius: 15px;
+    margin: auto 10px;
+    width: 50%;
     height: 350px;
     flex-direction: row;
     justify-content: space-between;
@@ -29,4 +37,18 @@ img {
 
 body {
     background-color: #85dcb0;
+}
+
+#name-header {
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: black;
 }
